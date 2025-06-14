@@ -6,7 +6,7 @@ phases:
       python: 3.11
     commands:
       - echo Updating system and installing dependencies...
-      - yum install -y unzip curl
+      - yum install -y unzip curl --allowerasing
       - echo Installing Terraform...
       - curl -O https://releases.hashicorp.com/terraform/1.6.6/terraform_1.6.6_linux_amd64.zip
       - unzip terraform_1.6.6_linux_amd64.zip
