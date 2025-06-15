@@ -3,7 +3,7 @@ terraform {
     bucket         = "bootcamp1-tf-state-dev-2"
     key            = "global/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "bootcamp1-terraform-lock-table-dev"
+    dynamodb_table = "bootcamp1-terraform-lock-table-dev-2"
     encrypt        = true
   }
 }
